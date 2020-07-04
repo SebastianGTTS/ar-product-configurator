@@ -46,3 +46,10 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# The following folders are specific to the AR Product Configurator.
+# If you change the corresponding folder names inside the DatabaseImporter script, you should change them here too.
+Bundles/
+Bundles.meta
+FromImporter/
+FromImporter.meta
