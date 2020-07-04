@@ -1,0 +1,623 @@
+{
+  "name": "Case Study",
+  "description": "Feature model of a kitchen used for the case study.",
+  "featureIdCounter": 33,
+  "features": [
+    {
+      "id": 1,
+      "name": "Kitchen",
+      "isMandatory": false,
+      "hasOrSubfeatures": false,
+      "hasXorSubfeatures": false,
+      "isDeletable": false,
+      "isPhysical": false,
+      "isMaterial": false,
+      "requiringDependencyFrom": [],
+      "requiringDependencyTo": [],
+      "excludingDependency": [],
+      "features": [
+        {
+          "id": 10,
+          "name": "Cabinets",
+          "isMandatory": true,
+          "hasOrSubfeatures": false,
+          "hasXorSubfeatures": false,
+          "isDeletable": true,
+          "isPhysical": false,
+          "isMaterial": false,
+          "requiringDependencyFrom": [],
+          "requiringDependencyTo": [],
+          "excludingDependency": [],
+          "features": [
+            {
+              "id": 13,
+              "name": "Floor Cabinets",
+              "isMandatory": false,
+              "hasOrSubfeatures": true,
+              "hasXorSubfeatures": false,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": false,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [
+                {
+                  "id": 15,
+                  "name": "Large Floor Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_large",
+                    "price": 179.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                },
+                {
+                  "id": 16,
+                  "name": "Medium Floor Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_medium",
+                    "price": 149.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                },
+                {
+                  "id": 17,
+                  "name": "Small Floor Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_small",
+                    "price": 99.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                },
+                {
+                  "id": 18,
+                  "name": "Drawers",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_drawers",
+                    "price": 124.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                },
+                {
+                  "id": 19,
+                  "name": "Sink",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_sink",
+                    "price": 119.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                },
+                {
+                  "id": 20,
+                  "name": "Empty Frame",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 13,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "floor_empty",
+                    "price": 49.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      14
+                    ]
+                  }
+                }
+              ],
+              "parentId": 10
+            },
+            {
+              "id": 14,
+              "name": "Wall Cabinets",
+              "isMandatory": false,
+              "hasOrSubfeatures": true,
+              "hasXorSubfeatures": false,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": false,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [
+                {
+                  "id": 21,
+                  "name": "Large Wall Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "wall_large",
+                    "price": 119.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 22,
+                  "name": "Medium Wall Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "wall_medium",
+                    "price": 109.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 23,
+                  "name": "Small Wall Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "wall_small",
+                    "price": 74.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 24,
+                  "name": "Glass Wall Cabinet",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Metropolis",
+                    "modelFilename": "wall_paneled",
+                    "price": 124.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 25,
+                  "name": "Single Door Wall Cabinet (Left)",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "wall_single_left",
+                    "price": 49.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 26,
+                  "name": "Single Door Wall Cabinet (Right)",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 14,
+                  "metadata": {
+                    "brand": "Skyline",
+                    "modelFilename": "wall_single_right",
+                    "price": 49.99,
+                    "leftSlot": [
+                      14
+                    ],
+                    "rightSlot": [
+                      14
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                }
+              ],
+              "parentId": 10
+            }
+          ],
+          "parentId": 1
+        },
+        {
+          "id": 11,
+          "name": "Appliances",
+          "isMandatory": false,
+          "hasOrSubfeatures": false,
+          "hasXorSubfeatures": false,
+          "isDeletable": true,
+          "isPhysical": false,
+          "isMaterial": false,
+          "requiringDependencyFrom": [],
+          "requiringDependencyTo": [],
+          "excludingDependency": [],
+          "features": [
+            {
+              "id": 27,
+              "name": "Refrigerator",
+              "isMandatory": false,
+              "hasOrSubfeatures": false,
+              "hasXorSubfeatures": true,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": false,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [
+                {
+                  "id": 28,
+                  "name": "Refrigerator With Freezer",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 27,
+                  "metadata": {
+                    "brand": "DVM",
+                    "modelFilename": "fridge_simple",
+                    "price": 349.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                },
+                {
+                  "id": 29,
+                  "name": "Refrigerator With Dispenser",
+                  "isMandatory": false,
+                  "hasOrSubfeatures": false,
+                  "hasXorSubfeatures": false,
+                  "isDeletable": true,
+                  "isPhysical": true,
+                  "isMaterial": false,
+                  "requiringDependencyFrom": [],
+                  "requiringDependencyTo": [],
+                  "excludingDependency": [],
+                  "features": [],
+                  "parentId": 27,
+                  "metadata": {
+                    "brand": "Astrelius",
+                    "modelFilename": "fridge_dispenser",
+                    "price": 499.99,
+                    "leftSlot": [
+                      13,
+                      11
+                    ],
+                    "rightSlot": [
+                      13,
+                      11
+                    ],
+                    "upperSlot": [
+                      -1
+                    ]
+                  }
+                }
+              ],
+              "parentId": 11
+            }
+          ],
+          "parentId": 1
+        },
+        {
+          "id": 12,
+          "name": "Materials",
+          "isMandatory": false,
+          "hasOrSubfeatures": false,
+          "hasXorSubfeatures": true,
+          "isDeletable": true,
+          "isPhysical": false,
+          "isMaterial": false,
+          "requiringDependencyFrom": [],
+          "requiringDependencyTo": [],
+          "excludingDependency": [],
+          "features": [
+            {
+              "id": 30,
+              "name": "Blue Marble",
+              "isMandatory": false,
+              "hasOrSubfeatures": false,
+              "hasXorSubfeatures": false,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": true,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [],
+              "material": {
+                "textureFilename": "blue_marble",
+                "price": 25
+              }
+            },
+            {
+              "id": 31,
+              "name": "Light Wood",
+              "isMandatory": false,
+              "hasOrSubfeatures": false,
+              "hasXorSubfeatures": false,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": true,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [],
+              "material": {
+                "textureFilename": "light_wood",
+                "price": 15
+              }
+            },
+            {
+              "id": 32,
+              "name": "Dark Wood",
+              "isMandatory": false,
+              "hasOrSubfeatures": false,
+              "hasXorSubfeatures": false,
+              "isDeletable": true,
+              "isPhysical": false,
+              "isMaterial": true,
+              "requiringDependencyFrom": [],
+              "requiringDependencyTo": [],
+              "excludingDependency": [],
+              "features": [],
+              "material": {
+                "textureFilename": "dark_wood",
+                "price": 15
+              }
+            }
+          ],
+          "parentId": 1
+        }
+      ],
+      "parentId": 0
+    }
+  ],
+  "featureMap": {
+    "1": "Kitchen",
+    "10": "Cabinets",
+    "11": "Appliances",
+    "12": "Materials",
+    "13": "Floor Cabinets",
+    "14": "Wall Cabinets",
+    "15": "Large Floor Cabinet",
+    "16": "Medium Floor Cabinet",
+    "17": "Small Floor Cabinet",
+    "18": "Drawers",
+    "19": "Sink",
+    "20": "Dishwasher Frame",
+    "21": "Large Wall Cabinet",
+    "22": "Medium Wall Cabinet",
+    "23": "Small Wall Cabinet",
+    "24": "Paneled Wall Cabinet",
+    "25": "Single Door Wall Cabinet (Left)",
+    "26": "Single Door Wall Cabinet (Right)",
+    "27": "Refrigerator",
+    "28": "Refrigerator With Freezer",
+    "29": "Refrigerator With Dispenser",
+    "30": "Blue Marble",
+    "31": "Light Wood",
+    "32": "Dark Wood"
+  },
+  "_id": "d0c309e4-0a0a-4eab-95f3-3a818de73b41",
+  "_rev": "116-c57439b1b506544c49cca0747c5548e3"
+}
